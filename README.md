@@ -11,7 +11,8 @@ A simple and intuitive mobile application to help you manage your tasks efficien
 
 ## Screenshots
 
-![Image](./path_to_your_image/preview.png)
+
+![preview img](/preview.png)
 
 ## Installation
 
