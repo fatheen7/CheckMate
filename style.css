@@ -14,10 +14,10 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #2e2e2e;
+    justify-content: center ;
+    color: #ffffff;
     font-family: "Inter", sans-serif;
-    background-color: #fff;
+    background-color: #c61212;
 }
 
 .wrapper {
@@ -52,7 +52,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 0 0 50% 50%;
-    background-color: #39a6f0;
+    background-color: #010b13;
     z-index: -1;
     transition: all 0.3s;
 }
@@ -76,7 +76,7 @@ body {
 .menu-btn {
     width: 2rem;
     cursor: pointer;
-    color: #ffffff;
+    color: #ff0707;
 }
 
 .welcome {
@@ -106,7 +106,7 @@ body {
     width: 3.8rem;
     height: 4rem;
     border-radius: 50%;
-    background-color: #e5e7fd;
+    background-color: #000000;
     z-index: -1;
 }
 
@@ -130,7 +130,7 @@ body {
 }
 
 .category {
-    background: #fff;
+    background: #1f0101;
     border-radius: 0.5rem;
     padding: 1.5rem 1rem;
     cursor: pointer;
@@ -337,7 +337,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #39a6f0;
+    background-color: #ff0000;
     transition: all 0.3s;
 }
 
