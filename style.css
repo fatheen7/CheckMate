@@ -11,7 +11,7 @@
 }
 
 body {
-    min-height: 150vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center ;
@@ -162,7 +162,7 @@ body {
 }
 
 .category .content p {
-    color: #2e2e2e;
+    color: #ffffff;
     font-size: 0.8rem;
     opacity: 0.6;
 }
@@ -354,7 +354,7 @@ body {
 
 .add-task-btn svg {
     width: 2rem;
-    color: #fff;
+    color: #ffffff;
 }
 
 .add-task {
