@@ -1,4 +1,4 @@
-# Todo List App
+# CheckMate (Todo-list app)
 
 A simple and intuitive mobile application to help you manage your tasks efficiently. This app categorizes tasks into different sections such as **Personal**, **Work**, **Shopping**, **Coding**, **Health**, **Fitness**, and more.
 
@@ -9,18 +9,13 @@ A simple and intuitive mobile application to help you manage your tasks efficien
 - User-friendly interface with a modern design.
 - Easy-to-use task management with a minimalistic approach.
 
-## Screenshots
-
-
-![preview img](/preview.png)
-
 ## Installation
 
 To run this app locally, follow these steps:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/todo-list-mobile-app.git
+    git clone https://github.com/your-fatheen7/todo-list-mobile-app.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -42,11 +37,4 @@ To run this app locally, follow these steps:
 - **State Management:** (Optional, e.g., Redux, Context API)
 - **Database:** (Optional, e.g., Firebase, SQLite, etc.)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to contribute, raise issues, or request features by creating an issue in this repository.
 
