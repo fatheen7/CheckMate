@@ -376,8 +376,26 @@ body {
         color: #007BFF;
     }
 }
-
-
+.dial-button {
+    background-color: red;  /* Set the background color to red */
+    color: white;           /* Set the font color to white */
+    border: none;           /* Remove border */
+    padding: 10px 20px;    /* Add some padding */
+    border-radius: 15px;    /* Adjust this value to curve the corners more or less */
+    cursor: pointer;        /* Change the cursor to pointer */
+    font-size: 16px;       /* Set font size */
+  }
+  
+  .dial-button:hover {
+    background-color: rgb(255, 0, 0); /* Optional: darken on hover */
+  }
+  
+  
+  .dial-button:hover {
+    background-color: rgb(255, 0, 0); /* Optional: darken on hover */
+  }
+  
+  
 
 /* Add Task */
 .add-task-btn {
@@ -564,3 +582,4 @@ h1 {
     margin: 50; /* Centering */
     display: flex;
 }
+
