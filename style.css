@@ -325,6 +325,59 @@ body {
     font-size: 1.5rem;
     opacity: 0.6;
 }
+/* sos button */
+.add-sos-btn {
+    position: absolute;
+   
+    left: 19rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0000;
+    transition: all 0.3s;
+
+.image-button {
+        background-color: transparent; /* Remove button background */
+        border: none; /* Remove button border */
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .image-button img {
+        width: 42px; /* Set desired width */
+        height: 42px; /* Set desired height */
+    }
+    
+    .contact-list {
+        position: absolute;
+        background-color: #fff;
+        padding: 15px 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 5px;
+        z-index: 1000;
+        width: 200px;
+    }
+    
+    .contact-list p {
+        margin: 5px 0;
+    }
+    
+    .contact-list a {
+        text-decoration: none;
+        color: #333;
+    }
+    
+    .contact-list a:hover {
+        color: #007BFF;
+    }
+}
+
+
 
 /* Add Task */
 .add-task-btn {
