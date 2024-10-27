@@ -407,6 +407,22 @@ contactButton.addEventListener('click', (event) => {
   // Toggle between showing and hiding the contact list
   contactList.style.display = contactList.style.display === 'none' ? 'block' : 'none';
 });
+// Add event listener for dialing (if you have a dial button)
+const dialButton = document.createElement('button');
+dialButton.textContent = "EMERGENCY"; // Button label
+dialButton.onclick = () => {
+  window.location.href = `tel:${phoneNumber}`; // Replace phoneNumber with the actual number
+};
+contactList.appendChild(dialButton); // Add the dial button to the contact list
+
+// Hide the contact list when clicking outside of it
+document.addEventListener('click', (event) => {
+  // Check if the click is outside the contact button and contact list
+  if (!contactButton.contains(event.target) && !contactList.contains(event.target)) {
+    contactList.classList.remove('active'); // Hide the contact list
+    contactList.style.display = 'none'; // Ensure it's not displayed
+  }
+});
 
 // Hide the contact list when clicking outside of it
 document.addEventListener('click', (event) => {
