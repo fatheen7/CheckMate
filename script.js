@@ -410,6 +410,7 @@ contactButton.addEventListener('click', (event) => {
 // Add event listener for dialing (if you have a dial button)
 const dialButton = document.createElement('button');
 dialButton.textContent = "EMERGENCY"; // Button label
+dialButton.classList.add('dial-button'); // Add the dial-button class
 dialButton.onclick = () => {
   window.location.href = `tel:${phoneNumber}`; // Replace phoneNumber with the actual number
 };
